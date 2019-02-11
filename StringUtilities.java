@@ -75,12 +75,12 @@ public class StringUtilities {
      * @return `value` with char of value `charToRemove` removed
      */
     public String removeCharacter(String value, Character charToRemove) {
-        /*String new_string ="";
-        new_string= value.replace(charToRemove,"");
+        String new_string ="";
+        new_string= value.replaceAll(charToRemove.toString(),"");
         //value.substring(0,value.indexOf(charToRemove))+
-        return new_string; */
+        return new_string;
         
-        return null;
+        //return null;
     }
 
     /**
